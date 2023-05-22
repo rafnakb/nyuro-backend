@@ -1,8 +1,9 @@
 package models;
 
-public class Phone {
+import lombok.Getter;
 
+@Getter
+public class Phone {
     private int id;
     private String phoneNumber;
-
 }
